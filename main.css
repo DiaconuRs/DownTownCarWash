@@ -1,0 +1,105 @@
+/* 
+
+color palette: https://colorhunt.co/palette/fef5edd3e4cdadc2a999a799
+
+font-family: 'Anton', sans-serif;
+font-family: 'Comfortaa', cursive;
+
+*/
+
+/* HTML TAGS */
+body {
+    font-family: 'Comfortaa', cursive;
+}
+h1 {
+    font-size: 3rem !important;
+    font-family: 'Anton', sans-serif !important;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-size: 1.2 rem;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.container {
+    padding: 10% 10%;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #99e2b4;
+    padding: 2% 10%;
+}
+
+.navbar a, .navbar h1 {
+    color: white !important;
+}
+
+.navbar h1 {
+    font-size: 1.5rem !important;
+    margin: 0px;
+}
+
+.navbar #navbar-list {
+    margin-left: auto;
+}
+
+/* FIRST SECTION */
+
+#firstSection{
+    text-align: center;
+}
+
+#firstSection h1 {
+    padding: 30px;
+}
+
+#firstSection .btn {
+    padding: 15px 30px;
+    border-radius: 15px 40px;
+}
+
+/* BKG IMAGE */
+
+#bkg {
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#bkg img {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+@media (max-width: 775px) {
+    #bkg img {
+        border: 0px;
+        border-radius: 0px;
+    }
+}
+
+/* SEP0 */
+
+#sep0 .container{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#sep0 hr {
+    border-top: 2px solid black;
+    height: 0px;
+}
+
+@media (max-width: 600px) {
+    hr {
+        display: none;
+    }
+}
