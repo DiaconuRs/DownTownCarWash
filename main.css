@@ -10,6 +10,7 @@ font-family: 'Comfortaa', cursive;
 /* HTML TAGS */
 body {
     font-family: 'Comfortaa', cursive;
+    overflow-x: hidden;
 }
 h1 {
     font-size: 3rem !important;
