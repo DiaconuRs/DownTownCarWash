@@ -102,4 +102,8 @@ p {
     hr {
         display: none;
     }
+
+    #sep0 .container {
+        padding: 10px 0px;
+    }
 }
