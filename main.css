@@ -8,9 +8,14 @@ font-family: 'Comfortaa', cursive;
 */
 
 /* HTML TAGS */
-body {
+
+html, body {
     font-family: 'Comfortaa', cursive;
     overflow-x: hidden;
+}
+
+body {
+    position: relative;
 }
 h1 {
     font-size: 3rem !important;
