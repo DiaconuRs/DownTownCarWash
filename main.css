@@ -48,7 +48,7 @@ p {
 }
 
 .navbar h1 {
-    font-size: 1.5rem !important;
+    font-size: calc(100% + 5px) !important;
     margin: 0px;
 }
 
@@ -64,7 +64,7 @@ p {
 }
 
 #firstSection * {
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 #firstSection * {
@@ -124,5 +124,11 @@ p {
 
     #bkg {
         display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    #firstSection * {
+        padding: 15px 0px;
     }
 }
